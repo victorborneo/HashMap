@@ -25,6 +25,19 @@ def main():
     print(time.perf_counter() - start)
 
     print(x==y)
+    
+    # for key in hmap.keys():
+    #     print(key)
+
+    # for val in hmap.values():
+    #     print(val)
+
+    # for k, v in hmap.items():
+    #     print(k, v)
+
+    hmap.remove(10)
+    print(hmap.get(10))
+    hmap.remove(10)
 
 
 if __name__ == "__main__":
